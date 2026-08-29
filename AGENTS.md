@@ -18,60 +18,58 @@
 
 | 文件 | 位置 | 狀態 |
 |------|------|------|
-| ATP 4-02.11《Casualty Response (TCCC and First Aid)》 | [`ATP_4-02.11/`](ATP_4-02.11/) | 翻譯中 |
+| ATP 4-02.11《Casualty Response (TCCC and First Aid)》 | 譯文 [`docs/atp-4-02.11/`](docs/atp-4-02.11/)　原始 PDF [`ATP_4-02.11/`](ATP_4-02.11/) | 翻譯完成，網站已架設 |
 
-ATP 4-02.11 章節：
+ATP 4-02.11 章節（檔案欄為架站後的 canonical 檔名）：
 
-| 章 | 檔案 | 狀態 |
+| 章 | 檔案（`docs/atp-4-02.11/`） | 狀態 |
 |----|------|------|
-| Ch01 | `ATP_4-02.11_Ch01_傷患處置_zh-TW.md` | 已翻譯 |
-| Ch02 | `ATP_4-02.11_Ch02_傷患脫離與搬運_zh-TW.md` | 已翻譯 |
-| Ch03 | `ATP_4-02.11_Ch03_TCCC基礎_zh-TW.md` | 已翻譯 |
-| Ch04 | `ATP_4-02.11_Ch04_大量出血控制_zh-TW.md` | 已翻譯 |
-| Ch05 | `ATP_4-02.11_Ch05_呼吸道控制_zh-TW.md` | 已翻譯 |
-| Ch06 | `ATP_4-02.11_Ch06_呼吸與換氣控制_zh-TW.md` | 已翻譯 |
-| Ch07 | `ATP_4-02.11_Ch07_循環控制_zh-TW.md` | 已翻譯 |
-| Ch08 | `ATP_4-02.11_Ch08_低體溫控制_zh-TW.md` | 已翻譯 |
-| Ch09 | `ATP_4-02.11_Ch09_二次傷勢評估_zh-TW.md` | 已翻譯 |
-| Ch10 | `ATP_4-02.11_Ch10_眼部創傷_zh-TW.md` | 已翻譯 |
-| Ch11 | `ATP_4-02.11_Ch11_頭部傷勢_zh-TW.md` | 已翻譯 |
-| Ch12 | `ATP_4-02.11_Ch12_燒傷_zh-TW.md` | 已翻譯 |
-| Ch13 | `ATP_4-02.11_Ch13_骨折與固定_zh-TW.md` | 已翻譯 |
-| Ch14 | `ATP_4-02.11_Ch14_其他二次傷勢的應急技術_zh-TW.md` | 已翻譯 |
-| Ch15 | `ATP_4-02.11_Ch15_傷患監測與後送準備_zh-TW.md` | 已翻譯 |
-| Ch16 | `ATP_4-02.11_Ch16_叮咬與螫傷_zh-TW.md` | 已翻譯 |
-| Ch17 | `ATP_4-02.11_Ch17_氣候與環境傷害_zh-TW.md` | 已翻譯 |
-| Ch18 | `ATP_4-02.11_Ch18_鐮刀型血球特徵_zh-TW.md` | 已翻譯 |
-| Ch19 | `ATP_4-02.11_Ch19_CBRN環境急救_zh-TW.md` | 已翻譯 |
-| Ch20 | `ATP_4-02.11_Ch20_戰鬥與作戰壓力控制_zh-TW.md` | 已翻譯 |
-| 附錄 A | `ATP_4-02.11_App-A_急救包與核定醫材清單_zh-TW.md` | 已翻譯 |
-| 附錄 B | `ATP_4-02.11_App-B_救援裝備_zh-TW.md` | 已翻譯 |
+| Ch01 | `01-casualty-response.md` | 已翻譯 |
+| Ch02 | `02-extraction-movement.md` | 已翻譯 |
+| Ch03 | `03-tccc-fundamentals.md` | 已翻譯 |
+| Ch04 | `04-massive-bleeding.md` | 已翻譯 |
+| Ch05 | `05-airway.md` | 已翻譯 |
+| Ch06 | `06-respiration-ventilation.md` | 已翻譯 |
+| Ch07 | `07-circulation.md` | 已翻譯 |
+| Ch08 | `08-hypothermia.md` | 已翻譯 |
+| Ch09 | `09-secondary-assessment.md` | 已翻譯 |
+| Ch10 | `10-eye-trauma.md` | 已翻譯 |
+| Ch11 | `11-head-injury.md` | 已翻譯 |
+| Ch12 | `12-burns.md` | 已翻譯 |
+| Ch13 | `13-fractures-splinting.md` | 已翻譯 |
+| Ch14 | `14-other-field-techniques.md` | 已翻譯 |
+| Ch15 | `15-monitoring-evac-prep.md` | 已翻譯 |
+| Ch16 | `16-bites-stings.md` | 已翻譯 |
+| Ch17 | `17-environmental-injuries.md` | 已翻譯 |
+| Ch18 | `18-sickle-cell-trait.md` | 已翻譯 |
+| Ch19 | `19-cbrn-first-aid.md` | 已翻譯 |
+| Ch20 | `20-combat-operational-stress.md` | 已翻譯 |
+| 附錄 A | `app-a-aid-kits-amal.md` | 已翻譯 |
+| 附錄 B | `app-b-rescue-equipment.md` | 已翻譯 |
+| — | `docs/errata.md` | 原文勘誤彙整（28 處），隨站發佈 |
 
 > **進度：20／20 章 + 2／2 附錄　＝　文字翻譯全部完成　｜　累計約 27.0 萬字**
 > ✅ 2026-08-28 全書文字部分已無缺漏。
 > ✅ **P1｜全書圖片已抽取完成**（2026-08-29）——109 張 200 dpi PNG 存於 `docs/public/images/atp-4-02.11/`，109 處佔位全數轉為 `<figure>` 區塊。
-> ⏳ **P2｜VitePress 網站尚未架設**——發佈架構已定案，見下方〈發佈架構〉。這是目前唯一剩下的階段。
+> ✅ **P2｜VitePress 網站已架設**（2026-08-29 第七場）——譯文搬入 `docs/atp-4-02.11/`（slug 檔名 + frontmatter），80 處 WARNING/CAUTION/IMPORTANT 轉 `::: danger`/`::: warning`，圖片路徑轉絕對路徑，`config.ts`／`index.md`／IBM Carbon 主題（含列印 CSS）／`deploy.yml`／`package.json` 全部到位。`npm run docs:build` 通過、本機預覽驗過。
+> ⏳ 剩 P3：合併術語表、譯文逐章內容驗收（機器驗證都過，內容層面未經使用者確認）、GitHub Pages 首次啟用。
 > ℹ️ 2026-08-29 發佈架構定案：單一 repo + VitePress，詳見 DEVLOG 第五場。
 
-原始 PDF：`ATP_4-02.11/ATP_4-02.11_Casualty_Response_TCCC_and_First_Aid_March_2026.pdf`
-圖片抽取測試：`ATP_4-02.11/_圖片測試/`（舊測試檔，圖片工序完成後可刪）
+原始 PDF：`ATP_4-02.11/ATP_4-02.11_Casualty_Response_TCCC_and_First_Aid_March_2026.pdf`（不進 `docs/`）
 
 ---
 
 ## 檔案與命名慣例
 
-**現況（過渡期，圖片工序期間維持不變）：**
-- 譯文檔名：`ATP_4-02.11/<文件編號>_Ch<章號>_<章名中文>_zh-TW.md`
-- 附錄檔名：`ATP_4-02.11/<文件編號>_App-<字母>_<附錄名中文>_zh-TW.md`
-- 原始 PDF 放 `ATP_4-02.11/` 內
-- **圖檔已置於 canonical 位置** `docs/public/images/atp-4-02.11/`，命名 `fig-<章2位>-<序2位>.png`（附錄用 `fig-a-01.png`／`fig-b-01.png`）
+**現況（P2 架站後，canonical 位置）：**
+- 逐章譯文：`docs/atp-4-02.11/<slug>.md`，slug 見〈發佈架構〉對照表；每檔含 frontmatter（`title` / `order` / `status`）
+- 圖檔：`docs/public/images/atp-4-02.11/`，命名 `fig-<章2位>-<序2位>.png`（附錄用 `fig-a-01.png`／`fig-b-01.png`）；Markdown 內 `src` 用絕對路徑 `/images/atp-4-02.11/…`（**不加** `base` 前綴）
+- 原文勘誤：`docs/errata.md`
+- 原始 PDF：續留 `ATP_4-02.11/`，**不進 `docs/`**（不打包進網站）
 - 章名中文取原書章標題的通用譯法，跨章保持一致
+- slug 以數字前綴排序，`app-a`／`app-b` 自然排在 `20` 之後
 
-**架站後（P2 起）：**
-- 逐章 `.md` 搬到 `docs/atp-4-02.11/<slug>.md`，slug 見〈發佈架構〉對照表
-- 圖檔放 `docs/public/images/atp-4-02.11/`，命名 `fig-<章>-<序>.png`
-- 原始 PDF 續留 `ATP_4-02.11/`，不進 `docs/`
-- slug 以數字前綴排序，`app-a`／`app-b` 自然排在 `20` 之後，順帶解決舊 `App-` 排序問題
+> 舊的 `ATP_4-02.11/*_Ch*_zh-TW.md` 檔名已於第七場搬檔時淘汰，不再使用。
 
 ---
 
@@ -82,7 +80,7 @@ ATP 4-02.11 章節：
 3. **藥名、劑量、單位**：
    - **藥品劑量**：完全照原文，**不做任何換算**（例：`acetaminophen 500 mg × 2`）。
    - **一般度量單位**（長度、溫度、重量、距離）：**保留原數值，並於括號內加註公制換算**，例：「2 英寸（約 5 公分）」「華氏 104 度（攝氏 40 度）」。譯註區塊須註明「實際操作請以原文數值為準」。
-4. **結構對齊**：保留原書的標題階層、編號、表格、警告框（WARNING / CAUTION / NOTE）。
+4. **結構對齊**：保留原書的標題階層、編號、表格。警告框已於 P2 統一為 VitePress container：WARNING → `::: danger 警告（WARNING）`、CAUTION → `::: warning 注意（CAUTION）`、IMPORTANT → `::: warning 重要（IMPORTANT!）`。零星的 `> **註**：…`（NOTE）維持 blockquote。
 5. **圖片**（2026-08-29 起適用，全書已套用）：一律使用 `<figure>` 區塊，`<figcaption>` 依序放中文圖說、原書頁碼、原文圖說：
 
    ```html
@@ -93,8 +91,7 @@ ATP 4-02.11 章節：
    ```
 
    - `alt` 與 `<figcaption>` 的中文圖說必須一致
-   - **過渡期** `.md` 仍在 `ATP_4-02.11/`，`src` 用相對路徑 `../docs/public/images/atp-4-02.11/…`（本機預覽看得到圖）
-   - **架站時** `.md` 搬入 `docs/atp-4-02.11/` 後，`src` 改為絕對路徑 `/images/atp-4-02.11/…`，**不加** `base` 前綴
+   - `src` 用絕對路徑 `/images/atp-4-02.11/…`，**不加** `base` 前綴（VitePress 規則；P2 起全書已套用）
 6. **不確定處**：術語或語意有疑義時停下來問使用者，不自行假設。
 
 ---

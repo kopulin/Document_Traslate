@@ -1,8 +1,14 @@
+---
+title: 第 13 章　骨折與固定
+order: 13
+status: published
+---
+
 # 第 13 章　骨折與固定
 
 > **來源**：ATP 4-02.11《陸軍傷患處置、戰術戰傷救護與急救技術準則》，2026 年 3 月 23 日版
 > **對應原文**：Chapter 13 — Fractures and Splinting（印刷頁 121–140 / PDF 頁 135–154）
-> **譯註**：本譯稿以繁體中文為主體，專有名詞首次出現時附上英文原文與縮寫。原文長度單位為英制，譯文保留原數值並於括號內加註公制換算。本章為全書最長章節，含圖 13-1 至 13-32 共 32 張，圖片位置以標註保留，影像於全書文字完成後統一處理。
+> **譯註**：本譯稿以繁體中文為主體，專有名詞首次出現時附上英文原文與縮寫。原文長度單位為英制，譯文保留原數值並於括號內加註公制換算。本章為全書最長章節，含圖 13-1 至 13-32 共 32 張，圖片已抽出並嵌入（200 dpi PNG）。
 
 ---
 
@@ -58,13 +64,13 @@
 - **捻髮音／骨摩擦感**（皮下的細碎摩擦或爆裂聲）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-01.png" alt="圖 13-1．閉鎖性骨折" />
+  <img src="/images/atp-4-02.11/fig-13-01.png" alt="圖 13-1．閉鎖性骨折" />
   <figcaption>圖 13-1．閉鎖性骨折（原書 p.122）<br />原文圖說：Figure 13-1. Closed Fracture</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-02.png" alt="圖 13-2．開放性骨折" />
+  <img src="/images/atp-4-02.11/fig-13-02.png" alt="圖 13-2．開放性骨折" />
   <figcaption>圖 13-2．開放性骨折（原書 p.122）<br />原文圖說：Figure 13-2. Open Fracture</figcaption>
 </figure>
 
@@ -165,9 +171,9 @@
 
 **13-28.** 評估傷患，並準備好施行任何必要的救命處置。持續監測傷患是否出現需要你施行救命處置的狀況。
 
-> ### ⚠️ 警告（WARNING）
->
-> 除非有立即危及生命的危險（例如火災或爆炸），否則**不可移動疑似有背部或頸部傷勢的傷患**。不當移動可能造成**永久性癱瘓或死亡**。
+::: danger 警告（WARNING）
+除非有立即危及生命的危險（例如火災或爆炸），否則**不可移動疑似有背部或頸部傷勢的傷患**。不當移動可能造成**永久性癱瘓或死亡**。
+:::
 
 **13-29.** 依下列方式找出疑似骨折的部位：
 
@@ -199,13 +205,13 @@
 - 檢查患肢的**溫度**。以你的手比較受傷側與未受傷側的溫度；傷處以下的身體部位若摸起來較冷，代表循環不良。
 - 詢問傷患是否有**麻木、緊繃、發冷或刺麻**的感覺。
 
-> ### ⚠️ 警告（WARNING）
->
-> 四肢骨折的傷患可能出現循環受損的表現，例如麻木、刺麻感、皮膚發冷或呈蒼白至發紫的色調。這類傷患應**儘速後送至醫療人員處置**。**及時的醫療處置可能保住肢體。**
+::: danger 警告（WARNING）
+四肢骨折的傷患可能出現循環受損的表現，例如麻木、刺麻感、皮膚發冷或呈蒼白至發紫的色調。這類傷患應**儘速後送至醫療人員處置**。**及時的醫療處置可能保住肢體。**
+:::
 
-> ### ⚠️ 警告（WARNING）
->
-> 若為**開放性骨折且有骨頭自皮膚突出**，**絕不可試圖把骨頭推回皮膚下方**。在傷口上施加野戰敷料以保護該區域。
+::: danger 警告（WARNING）
+若為**開放性骨折且有骨頭自皮膚突出**，**絕不可試圖把骨頭推回皮膚下方**。在傷口上施加野戰敷料以保護該區域。
+:::
 
 **13-34.** 依下列方式將夾板施加就位——
 
@@ -219,7 +225,7 @@
    - 使用**平結**。所有結都要打在夾板上、**遠離傷患的一側**（見圖 13-3）。**不可**把結直接打在疑似骨折處正上方。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-03.png" alt="圖 13-3．平結打在遠離傷患的一側" />
+  <img src="/images/atp-4-02.11/fig-13-03.png" alt="圖 13-3．平結打在遠離傷患的一側" />
   <figcaption>圖 13-3．平結打在遠離傷患的一側（原書 p.126）<br />原文圖說：Figure 13-3. Square knots tied away from the casualty</figcaption>
 </figure>
 
@@ -234,45 +240,45 @@
 **13-36.** 簡易吊帶可用任何現成的**不具彈性**布料製作，例如作訓服上衣或長褲、雨衣或帳篷布。也可用外套下擺（圖 13-4）、皮帶（圖 13-5）或布片來製作支撐。吊帶的作用是**把支撐壓力放在傷患未受傷的一側**（圖 13-6）。被支撐手臂的**手部位置應略高於手肘，且手指外露可見**。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-04.png" alt="圖 13-4．以襯衫下擺作支撐" />
+  <img src="/images/atp-4-02.11/fig-13-04.png" alt="圖 13-4．以襯衫下擺作支撐" />
   <figcaption>圖 13-4．以襯衫下擺作支撐（原書 p.127）<br />原文圖說：Figure 13-4. Shirttail used for support</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-05.png" alt="圖 13-5．以皮帶作支撐" />
+  <img src="/images/atp-4-02.11/fig-13-05.png" alt="圖 13-5．以皮帶作支撐" />
   <figcaption>圖 13-5．以皮帶作支撐（原書 p.127）<br />原文圖說：Figure 13-5. Belt used for support</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-06.png" alt="圖 13-6．簡易吊帶" />
+  <img src="/images/atp-4-02.11/fig-13-06.png" alt="圖 13-6．簡易吊帶" />
   <figcaption>圖 13-6．簡易吊帶（原書 p.127）<br />原文圖說：Figure 13-6. Improvised sling</figcaption>
 </figure>
 
 **13-37.** 固定吊帶的方式：將吊帶兩端向上拉，在**未受傷側的頸側（頸窩）** 打結（圖 13-7）。接著把吊帶在**手肘處**的末端或角落**扭轉並塞入**（圖 13-8）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-07.png" alt="圖 13-7．簡易吊帶兩端綁在頸側" />
+  <img src="/images/atp-4-02.11/fig-13-07.png" alt="圖 13-7．簡易吊帶兩端綁在頸側" />
   <figcaption>圖 13-7．簡易吊帶兩端綁在頸側（原書 p.127）<br />原文圖說：Figure 13-7. Ends of improvised sling tied to the side of neck</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-08.png" alt="圖 13-8．簡易吊帶的角落在手肘處扭轉並塞入" />
+  <img src="/images/atp-4-02.11/fig-13-08.png" alt="圖 13-8．簡易吊帶的角落在手肘處扭轉並塞入" />
   <figcaption>圖 13-8．簡易吊帶的角落在手肘處扭轉並塞入（原書 p.127）<br />原文圖說：Figure 13-8. Corner of improvised sling twisted and tucked at the elbow</figcaption>
 </figure>
 
 **13-38.** 為受傷手臂施加**束縛帶**：將束縛帶跨過受傷手臂、繞過傷患背部，再從**未受傷側的腋下**穿過，並在未受傷側打結（見第 128 頁圖 13-9）。可用任何大片布料、服役人員的皮帶或手槍腰帶自製束縛帶。為受傷腿部施加束縛帶時，則將束縛帶**環繞雙腿**纏繞，並在未受傷側固定。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-09.png" alt="圖 13-9．以布條固定的手臂" />
+  <img src="/images/atp-4-02.11/fig-13-09.png" alt="圖 13-9．以布條固定的手臂" />
   <figcaption>圖 13-9．以布條固定的手臂（原書 p.128）<br />原文圖說：Figure 13-9. An arm immobilized with strips of clothing</figcaption>
 </figure>
 
-> ### ⚠️ 警告（WARNING）
->
-> 束縛帶**不可直接放在傷處正上方**，而應置於骨折處的**上方或下方**。
+::: danger 警告（WARNING）
+束縛帶**不可直接放在傷處正上方**，而應置於骨折處的**上方或下方**。
+:::
 
 **13-39.** 尋求醫療協助。通報醫療人員，並密切留意是否出現危及生命的狀況、以及患肢是否循環受損。
 
@@ -292,55 +298,55 @@
 **13-42.** 第 129 頁圖 13-10 至第 131 頁圖 13-18，示範如何施加吊帶、夾板與三角巾（束縛帶）以固定並支撐上肢骨折。**雖然部分圖示中看不到襯墊，但沿著傷處、依夾板長度加上襯墊始終是較好的作法**，在夾板接觸身體骨質部位處尤其如此。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-10.png" alt="圖 13-10．以三角巾製作吊帶（兩種方法）" />
+  <img src="/images/atp-4-02.11/fig-13-10.png" alt="圖 13-10．以三角巾製作吊帶（兩種方法）" />
   <figcaption>圖 13-10．以三角巾製作吊帶（兩種方法）（原書 p.129）<br />原文圖說：Figure 13-10. Application of a cravat to form a sling (two methods)</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-11.png" alt="圖 13-11．在手肘處扭轉並塞入吊帶角落以完成吊帶" />
+  <img src="/images/atp-4-02.11/fig-13-11.png" alt="圖 13-11．在手肘處扭轉並塞入吊帶角落以完成吊帶" />
   <figcaption>圖 13-11．在手肘處扭轉並塞入吊帶角落以完成吊帶（原書 p.129）<br />原文圖說：Figure 13-11. Completing the sling sequence by twisting and tucking the corner of the sling at the elbow</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-12.png" alt="圖 13-12．手肘未彎曲時，為骨折手肘施加木板夾板（兩種方法）" />
+  <img src="/images/atp-4-02.11/fig-13-12.png" alt="圖 13-12．手肘未彎曲時，為骨折手肘施加木板夾板（兩種方法）" />
   <figcaption>圖 13-12．手肘未彎曲時，為骨折手肘施加木板夾板（兩種方法）（原書 p.129）<br />原文圖說：Figure 13-12. Board splints applied to the fractured elbow when the elbow is not bent (two methods)</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-13.png" alt="圖 13-13．無夾板可用時，以胸壁作為上臂骨折的夾板" />
+  <img src="/images/atp-4-02.11/fig-13-13.png" alt="圖 13-13．無夾板可用時，以胸壁作為上臂骨折的夾板" />
   <figcaption>圖 13-13．無夾板可用時，以胸壁作為上臂骨折的夾板（原書 p.130）<br />原文圖說：Figure 13-13. Chest wall used as a splint for the upper arm fracture when no splint is available</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-14.png" alt="圖 13-14．手肘彎曲時，以胸壁、吊帶與三角巾固定骨折的手肘" />
+  <img src="/images/atp-4-02.11/fig-13-14.png" alt="圖 13-14．手肘彎曲時，以胸壁、吊帶與三角巾固定骨折的手肘" />
   <figcaption>圖 13-14．手肘彎曲時，以胸壁、吊帶與三角巾固定骨折的手肘（原書 p.130）<br />原文圖說：Figure 13-14. Chest wall, sling, and cravat used to immobilize the fractured elbow when the elbow is bent</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-15.png" alt="圖 13-15．為骨折前臂施加木板夾板" />
+  <img src="/images/atp-4-02.11/fig-13-15.png" alt="圖 13-15．為骨折前臂施加木板夾板" />
   <figcaption>圖 13-15．為骨折前臂施加木板夾板（原書 p.130）<br />原文圖說：Figure 13-15. Board splint applied to the fractured forearm</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-16.png" alt="圖 13-16．以木棍固定骨折的前臂或手腕，並以襯衫下擺與布條支撐" />
+  <img src="/images/atp-4-02.11/fig-13-16.png" alt="圖 13-16．以木棍固定骨折的前臂或手腕，並以襯衫下擺與布條支撐" />
   <figcaption>圖 13-16．以木棍固定骨折的前臂或手腕，並以襯衫下擺與布條支撐（原書 p.130）<br />原文圖說：Figure 13-16. Fractured forearm or wrist splinted with sticks, and supported with a tail of the shirt and strips of material</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-17.png" alt="圖 13-17．為骨折的手腕與手部施加木板夾板" />
+  <img src="/images/atp-4-02.11/fig-13-17.png" alt="圖 13-17．為骨折的手腕與手部施加木板夾板" />
   <figcaption>圖 13-17．為骨折的手腕與手部施加木板夾板（原書 p.131）<br />原文圖說：Figure 13-17. Board splint applied to a fractured wrist and hand</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-18.png" alt="圖 13-18．為骨折的手腕或前臂施加半硬式夾板" />
+  <img src="/images/atp-4-02.11/fig-13-18.png" alt="圖 13-18．為骨折的手腕或前臂施加半硬式夾板" />
   <figcaption>圖 13-18．為骨折的手腕或前臂施加半硬式夾板（原書 p.131）<br />原文圖說：Figure 13-18. Semi-rigid splint applied to a fractured wrist or forearm</figcaption>
 </figure>
 
@@ -360,43 +366,43 @@
 **13-44.** 第 132 頁圖 13-19 至第 135 頁圖 13-25，示範如何施加夾板以固定下肢骨折。**雖然部分圖示中看不到襯墊，但沿著傷處、依夾板長度加上襯墊始終是較好的作法**，在夾板接觸身體骨質部位處尤其如此。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-19.png" alt="圖 13-19．為骨折的髖部或大腿施加木板夾板" />
+  <img src="/images/atp-4-02.11/fig-13-19.png" alt="圖 13-19．為骨折的髖部或大腿施加木板夾板" />
   <figcaption>圖 13-19．為骨折的髖部或大腿施加木板夾板（原書 p.132）<br />原文圖說：Figure 13-19. Board splints applied to the fractured hip or thigh</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-20.png" alt="圖 13-20．為骨折或脫臼的膝蓋施加木板夾板" />
+  <img src="/images/atp-4-02.11/fig-13-20.png" alt="圖 13-20．為骨折或脫臼的膝蓋施加木板夾板" />
   <figcaption>圖 13-20．為骨折或脫臼的膝蓋施加木板夾板（原書 p.132）<br />原文圖說：Figure 13-20. Board splint applied to the fractured or dislocated knee</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-21.png" alt="圖 13-21．為骨折的小腿或腳踝施加木板夾板" />
+  <img src="/images/atp-4-02.11/fig-13-21.png" alt="圖 13-21．為骨折的小腿或腳踝施加木板夾板" />
   <figcaption>圖 13-21．為骨折的小腿或腳踝施加木板夾板（原書 p.133）<br />原文圖說：Figure 13-21. Board splints applied to the fractured lower leg or ankle</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-22.png" alt="圖 13-22．為骨折的小腿或腳踝施加可塑形夾板" />
+  <img src="/images/atp-4-02.11/fig-13-22.png" alt="圖 13-22．為骨折的小腿或腳踝施加可塑形夾板" />
   <figcaption>圖 13-22．為骨折的小腿或腳踝施加可塑形夾板（原書 p.133）<br />原文圖說：Figure 13-22. Moldable splint applied to the fractured lower leg or ankle</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-23.png" alt="圖 13-23．為骨折的小腿或腳踝施加簡易夾板" />
+  <img src="/images/atp-4-02.11/fig-13-23.png" alt="圖 13-23．為骨折的小腿或腳踝施加簡易夾板" />
   <figcaption>圖 13-23．為骨折的小腿或腳踝施加簡易夾板（原書 p.134）<br />原文圖說：Figure 13-23. Improvised splint applied to the fractured lower leg or ankle</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-24.png" alt="圖 13-24．以桿子捲入毛毯中作為夾板，施加於骨折的下肢" />
+  <img src="/images/atp-4-02.11/fig-13-24.png" alt="圖 13-24．以桿子捲入毛毯中作為夾板，施加於骨折的下肢" />
   <figcaption>圖 13-24．以桿子捲入毛毯中作為夾板，施加於骨折的下肢（原書 p.134）<br />原文圖說：Figure 13-24. Poles rolled in a blanket and used as splints that are applied to the fractured lower extremity</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-25.png" alt="圖 13-25．以未受傷的腿作為骨折腿的夾板（解剖式夾板）" />
+  <img src="/images/atp-4-02.11/fig-13-25.png" alt="圖 13-25．以未受傷的腿作為骨折腿的夾板（解剖式夾板）" />
   <figcaption>圖 13-25．以未受傷的腿作為骨折腿的夾板（解剖式夾板）（原書 p.135）<br />原文圖說：Figure 13-25. Uninjured leg used as a splint for the fractured leg (anatomical splint)</figcaption>
 </figure>
 
@@ -404,21 +410,21 @@
 
 **13-45.** 要固定骨折的下顎，依第 114 頁第 11-39 段的準則施加三角巾或紗布繃帶。**務必讓所有繃帶支撐力導向傷患的頭頂，而非後頸。** 繃帶放錯位置可能把傷患的下顎往後拉，**可能因此阻塞其呼吸並使傷勢惡化**。
 
-> ### ⚠️ 警告（WARNING）
->
-> **下顎骨（mandible）骨折的傷患不可平躺仰臥**，因為顏面肌肉會鬆弛，可能造成呼吸道阻塞。
+::: danger 警告（WARNING）
+**下顎骨（mandible）骨折的傷患不可平躺仰臥**，因為顏面肌肉會鬆弛，可能造成呼吸道阻塞。
+:::
 
 **13-46.** 骨折的鎖骨可用**兩條皮帶、一條吊帶與一條束縛帶**加以固定。圖 13-26 示範如何固定骨折的鎖骨。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-26.png" alt="圖 13-26．以皮帶、吊帶與束縛帶固定骨折的鎖骨" />
+  <img src="/images/atp-4-02.11/fig-13-26.png" alt="圖 13-26．以皮帶、吊帶與束縛帶固定骨折的鎖骨" />
   <figcaption>圖 13-26．以皮帶、吊帶與束縛帶固定骨折的鎖骨（原書 p.135）<br />原文圖說：Figure 13-26. The application of belts, sling, and swathe to immobilize a fractured collarbone</figcaption>
 </figure>
 
 **13-47.** 疑似脫臼或骨折的肩部，可用**吊帶與束縛帶**加以固定。第 136 頁圖 13-27 示範如何正確固定脫臼或骨折的肩部。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-27.png" alt="圖 13-27．以吊帶與束縛帶固定骨折或脫臼的肩部" />
+  <img src="/images/atp-4-02.11/fig-13-27.png" alt="圖 13-27．以吊帶與束縛帶固定骨折或脫臼的肩部" />
   <figcaption>圖 13-27．以吊帶與束縛帶固定骨折或脫臼的肩部（原書 p.136）<br />原文圖說：Figure 13-27. The application of the sling and swathe to immobilize a fractured or dislocated shoulder</figcaption>
 </figure>
 
@@ -434,7 +440,7 @@
 4. 若傷患**俯臥**，**不可**在其身體任何部位下方塞入任何東西。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-28.png" alt="圖 13-28．脊柱必須維持正常的脊椎位置" />
+  <img src="/images/atp-4-02.11/fig-13-28.png" alt="圖 13-28．脊柱必須維持正常的脊椎位置" />
   <figcaption>圖 13-28．脊柱必須維持正常的脊椎位置（原書 p.137）<br />原文圖說：Figure 13-28. The spinal column must maintain a normal spine position</figcaption>
 </figure>
 
@@ -443,7 +449,7 @@
 **仰臥姿勢**：以擔架搬運，或使用堅固的替代品，例如比傷患身高更長的寬木板或門板。用三角巾、紗布繃帶或布條，**在傷患腰際將其雙腕鬆綁在一起**；再把雙腳綁在一起，防止意外掉落或雙腿移位。在擔架上、對應其背部弧度的位置鋪一條摺疊的毛毯。以**四人小組**（見第 138 頁圖 13-29）在**不彎折其脊柱或頸部**的前提下，將傷患移上擔架。**若情況允許，應避免長時間使用，僅作暫時措施。**
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-29.png" alt="圖 13-29．將背部骨折的傷患以仰臥姿勢移上擔架" />
+  <img src="/images/atp-4-02.11/fig-13-29.png" alt="圖 13-29．將背部骨折的傷患以仰臥姿勢移上擔架" />
   <figcaption>圖 13-29．將背部骨折的傷患以仰臥姿勢移上擔架（原書 p.138）<br />原文圖說：Figure 13-29. Placing the casualty face-up with a fractured back onto the litter</figcaption>
 </figure>
 
@@ -466,13 +472,13 @@
 4. **固定傷患的頭部**（見圖 13-31）。作法是把重物（例如石頭，或裝滿泥土、砂石、礫石的靴子）加上襯墊，放在其頭部**兩側**。若必須使用靴子，裝填後應將靴口緊緊綁住或以布料塞緊，以固定內容物。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-30.png" alt="圖 13-30．傷患頸部下方墊布卷" />
+  <img src="/images/atp-4-02.11/fig-13-30.png" alt="圖 13-30．傷患頸部下方墊布卷" />
   <figcaption>圖 13-30．傷患頸部下方墊布卷（原書 p.139）<br />原文圖說：Figure 13-30. Casualty with a roll of cloth (bulk) under neck</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-31.png" alt="圖 13-31．以靴子固定骨折的頸部" />
+  <img src="/images/atp-4-02.11/fig-13-31.png" alt="圖 13-31．以靴子固定骨折的頸部" />
   <figcaption>圖 13-31．以靴子固定骨折的頸部（原書 p.139）<br />原文圖說：Figure 13-31. Immobilization of the fractured neck with boots</figcaption>
 </figure>
 
@@ -489,7 +495,7 @@
 5. 將木板抬上擔架或毛毯，以便搬運傷患（見圖 13-32 步驟 E）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-13-32.png" alt="圖 13-32．為頸椎骨折的傷患準備搬運" />
+  <img src="/images/atp-4-02.11/fig-13-32.png" alt="圖 13-32．為頸椎骨折的傷患準備搬運" />
   <figcaption>圖 13-32．為頸椎骨折的傷患準備搬運（原書 p.140）<br />原文圖說：Figure 13-32. Preparing the casualty with a fractured neck for transportation</figcaption>
 </figure>
 

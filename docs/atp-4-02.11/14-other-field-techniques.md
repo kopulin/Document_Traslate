@@ -1,8 +1,14 @@
+---
+title: 第 14 章　其他二次傷勢的應急技術
+order: 14
+status: published
+---
+
 # 第 14 章　其他二次傷勢的應急技術
 
 > **來源**：ATP 4-02.11《陸軍傷患處置、戰術戰傷救護與急救技術準則》，2026 年 3 月 23 日版
 > **對應原文**：Chapter 14 — Expedient Techniques for other Secondary Injuries（印刷頁 141–150 / PDF 頁 155–164）
-> **譯註**：本譯稿以繁體中文為主體，專有名詞首次出現時附上英文原文與縮寫。圖片位置以標註保留，影像於全書文字完成後統一處理。
+> **譯註**：本譯稿以繁體中文為主體，專有名詞首次出現時附上英文原文與縮寫。圖片已抽出並嵌入（200 dpi PNG）。
 
 ---
 
@@ -19,7 +25,7 @@
 **14-3.** 處置腹部傷口的第一步是**為傷患擺位**：讓傷患**仰臥並維持雙膝屈起（豎起）** 的姿勢（見圖 14-1）。屈膝姿勢有助於緩解疼痛、協助休克的處置、防止腸道（腸子）或腹腔器官進一步外露，並藉由讓腹肌放鬆來減輕腹腔壓力。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-01.png" alt="圖 14-1．傷患仰臥、雙膝屈起" />
+  <img src="/images/atp-4-02.11/fig-14-01.png" alt="圖 14-1．傷患仰臥、雙膝屈起" />
   <figcaption>圖 14-1．傷患仰臥、雙膝屈起（原書 p.141）<br />原文圖說：Figure 14-1. The casualty positioned (lying) on their back with their knees (flexed) up</figcaption>
 </figure>
 
@@ -29,7 +35,7 @@
 2. **輕輕拾起**可能落在地面上的任何器官，以乾淨的乾燥敷料或現有最乾淨的材料進行，並將器官**放在傷患的腹部上方**（見圖 14-2）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-02.png" alt="圖 14-2．將突出的器官放置在傷口附近" />
+  <img src="/images/atp-4-02.11/fig-14-02.png" alt="圖 14-2．將突出的器官放置在傷口附近" />
   <figcaption>圖 14-2．將突出的器官放置在傷口附近（原書 p.141）<br />原文圖說：Figure 14-2. Protruding organs placed near the wound</figcaption>
 </figure>
 
@@ -73,17 +79,17 @@
 
 **14-11.** 腹部傷勢須採取**低體溫預防措施**，因為外露的腹腔或器官會迅速散失熱量。在覆蓋外露器官之前先以乾淨清水潤濕敷料，並尋求醫療協助。
 
-> ### ⚠️ 警告（WARNING）
->
-> 若有物體自傷口突出，**不可移除**。在**不使該物體鬆動或位移**的前提下，儘可能將包裝布覆蓋傷口。**不可將包裝布蓋在該物體上。**
+::: danger 警告（WARNING）
+若有物體自傷口突出，**不可移除**。在**不使該物體鬆動或位移**的前提下，儘可能將包裝布覆蓋傷口。**不可將包裝布蓋在該物體上。**
+:::
 
-> ### ⚠️ 警告（WARNING）
->
-> 施加敷料時，**不可對傷口或外露的內臟施加壓力**，因為壓力可能造成進一步傷害（例如嘔吐或腸破裂）。因此敷料的綁帶（帶尾）應**寬鬆地綁在傷患身側，而非直接綁在敷料正上方**。
+::: danger 警告（WARNING）
+施加敷料時，**不可對傷口或外露的內臟施加壓力**，因為壓力可能造成進一步傷害（例如嘔吐或腸破裂）。因此敷料的綁帶（帶尾）應**寬鬆地綁在傷患身側，而非直接綁在敷料正上方**。
+:::
 
-> ### ⚠️ 注意（CAUTION）
->
-> **不可**給腹部傷口的傷患食物或飲水（**可以濕潤嘴唇**）。
+::: warning 注意（CAUTION）
+**不可**給腹部傷口的傷患食物或飲水（**可以濕潤嘴唇**）。
+:::
 
 ---
 
@@ -100,7 +106,7 @@
 3. 確認繃帶**貼合但不過緊**，以維持適當循環與傷患的舒適。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-03.png" alt="圖 14-3．肩部繃帶" />
+  <img src="/images/atp-4-02.11/fig-14-03.png" alt="圖 14-3．肩部繃帶" />
   <figcaption>圖 14-3．肩部繃帶（原書 p.144）<br />原文圖說：Figure 14-3. The shoulder bandage</figcaption>
 </figure>
 
@@ -114,7 +120,7 @@
 6. 取其中一條，其一端**橫跨背部並從對側腋下穿過**，另一端**橫跨胸部**，再將兩端綁緊（步驟 H）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-04.png" alt="圖 14-4．延長三角巾施加於肩部或腋窩" />
+  <img src="/images/atp-4-02.11/fig-14-04.png" alt="圖 14-4．延長三角巾施加於肩部或腋窩" />
   <figcaption>圖 14-4．延長三角巾施加於肩部或腋窩（原書 p.145）<br />原文圖說：Figure 14-4. The extended cravat applied to the shoulder or armpit</figcaption>
 </figure>
 
@@ -129,13 +135,13 @@
 3. 兩端繞過手臂，在**肘前**以平結綁緊（步驟 C）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-05.png" alt="圖 14-5．手肘繃帶" />
+  <img src="/images/atp-4-02.11/fig-14-05.png" alt="圖 14-5．手肘繃帶" />
   <figcaption>圖 14-5．手肘繃帶（原書 p.146）<br />原文圖說：Figure 14-5. The elbow bandage</figcaption>
 </figure>
 
-> ### ⚠️ 注意（CAUTION）
->
-> 若懷疑**手肘骨折，不可彎曲手肘**；應**就其原本的姿勢**包紮。
+::: warning 注意（CAUTION）
+若懷疑**手肘骨折，不可彎曲手肘**；應**就其原本的姿勢**包紮。
+:::
 
 ### 14.3.3　手部繃帶
 
@@ -146,7 +152,7 @@
 3. 兩端在手背上方交叉，繞過手腕，以**平結**綁緊（步驟 C 至步驟 E）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-06.png" alt="圖 14-6．手部繃帶" />
+  <img src="/images/atp-4-02.11/fig-14-06.png" alt="圖 14-6．手部繃帶" />
   <figcaption>圖 14-6．手部繃帶（原書 p.146）<br />原文圖說：Figure 14-6. Bandage applied to the hand</figcaption>
 </figure>
 
@@ -159,7 +165,7 @@
 5. 兩端往下帶，在**手腕上方**以平結綁緊（步驟 E 至步驟 F）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-07.png" alt="圖 14-7．手掌繃帶" />
+  <img src="/images/atp-4-02.11/fig-14-07.png" alt="圖 14-7．手掌繃帶" />
   <figcaption>圖 14-7．手掌繃帶（原書 p.147）<br />原文圖說：Figure 14-7. Bandage applied to the palm of the hand</figcaption>
 </figure>
 
@@ -172,7 +178,7 @@
 3. 兩端會合後以**平結**綁緊（步驟 C）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-08.png" alt="圖 14-8．腿部繃帶" />
+  <img src="/images/atp-4-02.11/fig-14-08.png" alt="圖 14-8．腿部繃帶" />
   <figcaption>圖 14-8．腿部繃帶（原書 p.148）<br />原文圖說：Figure 14-8. Bandage applied to the leg</figcaption>
 </figure>
 
@@ -180,12 +186,12 @@
 
 **14-20.** 為膝部施加繃帶的方式如圖 14-9 所示，**與第 145 頁第 14-16 段所述的手肘包紮技術相同**。
 
-> ### ⚠️ 注意（CAUTION）
->
-> 若懷疑**膝蓋骨骨折，不可彎曲膝蓋**；應**就其原本的姿勢**包紮。
+::: warning 注意（CAUTION）
+若懷疑**膝蓋骨骨折，不可彎曲膝蓋**；應**就其原本的姿勢**包紮。
+:::
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-09.png" alt="圖 14-9．膝部繃帶" />
+  <img src="/images/atp-4-02.11/fig-14-09.png" alt="圖 14-9．膝部繃帶" />
   <figcaption>圖 14-9．膝部繃帶（原書 p.148）<br />原文圖說：Figure 14-9. Bandage applied to the knee</figcaption>
 </figure>
 
@@ -198,7 +204,7 @@
 3. 兩端在腳背上方交叉，繞過腳踝，在**踝前**綁緊（步驟 C 至步驟 E）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-14-10.png" alt="圖 14-10．足部繃帶" />
+  <img src="/images/atp-4-02.11/fig-14-10.png" alt="圖 14-10．足部繃帶" />
   <figcaption>圖 14-10．足部繃帶（原書 p.149）<br />原文圖說：Figure 14-10. Bandage applied to the foot</figcaption>
 </figure>
 

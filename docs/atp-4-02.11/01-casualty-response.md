@@ -1,3 +1,9 @@
+---
+title: 第 1 章　傷患處置
+order: 1
+status: published
+---
+
 # 第 1 章　傷患處置
 
 > **來源**：ATP 4-02.11《陸軍傷患處置、戰術戰傷救護與急救技術準則》，2026 年 3 月 23 日版
@@ -106,7 +112,7 @@
 **1-24.** CCP 的配置（見第 6 頁圖 1-1）位置，在**軍事決策程序（MDMP）或部隊領導程序（troop leading procedures, TLP）** 的規劃階段就要處理。戰術戰鬥計畫會依納入計畫的單位類型與數量而有所不同。**任務變數在作戰期間始終是 CCP 位置選擇的考量因素。**
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-01-01.png" alt="圖 1-1．開闊地或野地的傷患集合點配置" />
+  <img src="/images/atp-4-02.11/fig-01-01.png" alt="圖 1-1．開闊地或野地的傷患集合點配置" />
   <figcaption>圖 1-1．開闊地或野地的傷患集合點配置（原書 p.6）<br />原文圖說：Figure 1-1. Casualty collection point layout in an open area or field</figcaption>
 </figure>
 
@@ -141,7 +147,7 @@
 8. 以顏色編碼並依處置類別標示房間。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-01-02.png" alt="圖 1-2．建物內的傷患集合點" />
+  <img src="/images/atp-4-02.11/fig-01-02.png" alt="圖 1-2．建物內的傷患集合點" />
   <figcaption>圖 1-2．建物內的傷患集合點（原書 p.7）<br />原文圖說：Figure 1-2. Casualty collection point in a building</figcaption>
 </figure>
 
@@ -266,11 +272,11 @@
 
 **1-50.** 服役人員可能必須執行或協助傷患的脫困、救援與後送。可用的**脫困器材、戰術情境、環境狀況與操作手法**眾多，以完成適切的傷患移動。關於傷患搬運的詳細資訊，參閱 **ATP 4-02.13**。
 
-> ### ⚠️ 警告（WARNING）
->
-> 以此方式運送的傷患，**可能無法獲得妥適的途中醫療照護**，也可能未被送往能處理其醫療狀況的適當 MTF。
->
-> 若傷患的醫療狀況在運送途中惡化，或傷患未被送往適當的 MTF，**可能對其預後造成不利影響，導致長期失能或死亡**。
+::: danger 警告（WARNING）
+以此方式運送的傷患，**可能無法獲得妥適的途中醫療照護**，也可能未被送往能處理其醫療狀況的適當 MTF。
+
+若傷患的醫療狀況在運送途中惡化，或傷患未被送往適當的 MTF，**可能對其預後造成不利影響，導致長期失能或死亡**。
+:::
 
 **1-51.** 當 MEDEVAC 資源有限時，**運送傷勢較輕的傷患是單位的責任**（即 CASEVAC）。CASEVAC 的規劃須與既有的醫療支援計畫同步，以確保流程順暢，這包括**事前的編組、準備、協調與演練**。該計畫應確保受過急救訓練的小組熟練於操作擔架、在醫療據點周邊作業，並能正確判定檢傷類別。**只要可能，用於運送傷患的非醫療車輛、航空器與船艇，都應有 CLS 或醫療人員隨行**，以在運送途中提供必要照護。
 
@@ -496,7 +502,7 @@
 - 途中照護。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-01-03.png" alt="圖 1-3．美國陸戰隊醫療照護能量分類連續體" />
+  <img src="/images/atp-4-02.11/fig-01-03.png" alt="圖 1-3．美國陸戰隊醫療照護能量分類連續體" />
   <figcaption>圖 1-3．美國陸戰隊醫療照護能量分類連續體（原書 p.18）<br />原文圖說：Figure 1-3. United States Marine Corps Taxonomy Contiumim of Health Care Capabilitles</figcaption>
 </figure>
 
@@ -546,7 +552,7 @@
 **1-102.** 以下各段所述的階段**僅為概念性分期**。因威脅程度、任務、地形、地理、天候、風險部隊與敵對部隊等因素，可能出現其他變化與組合。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-01-04.png" alt="圖 1-4．美國陸戰隊醫療照護支援的概念性分期" />
+  <img src="/images/atp-4-02.11/fig-01-04.png" alt="圖 1-4．美國陸戰隊醫療照護支援的概念性分期" />
   <figcaption>圖 1-4．美國陸戰隊醫療照護支援的概念性分期（原書 p.20）<br />原文圖說：Figure 1-4. United States Marine Corps notional phasing of health care support</figcaption>
 </figure>
 

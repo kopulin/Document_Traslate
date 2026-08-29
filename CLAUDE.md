@@ -55,7 +55,7 @@ Document_Traslate/
 └─ package.json                        vitepress 依賴
 ```
 
-**過渡期：** 圖片與佔位處理完成前，逐章 `.md` 暫留 `ATP_4-02.11/`；待架站時一併搬入 `docs/atp-4-02.11/` 並改用 slug 檔名（對照表見 [AGENTS.md](AGENTS.md)〈發佈架構〉）。
+**狀態（2026-08-29 第七場）：** 逐章 `.md` 已全數搬入 `docs/atp-4-02.11/`（slug 檔名 + frontmatter），VitePress 網站已架好（`config.ts`／`index.md`／主題／`deploy.yml`／`package.json`），`npm run docs:build` 通過。過渡期結束，canonical 位置即 `docs/`。剩 GitHub Pages 首次啟用與 P3（術語表、逐章驗收）。
 
 ---
 

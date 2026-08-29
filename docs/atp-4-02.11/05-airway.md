@@ -1,8 +1,14 @@
+---
+title: 第 5 章　呼吸道控制
+order: 5
+status: published
+---
+
 # 第 5 章　呼吸道控制
 
 > **來源**：ATP 4-02.11《陸軍傷患處置、戰術戰傷救護與急救技術準則》，2026 年 3 月 23 日版
 > **對應原文**：Chapter 5 — Airway Control（印刷頁 59–72 / PDF 頁 73–86）
-> **譯註**：本譯稿以繁體中文為主體，專有名詞首次出現時附上英文原文與縮寫。原文長度單位為英制，譯文保留原數值並於括號內加註公制換算，實際操作請以原文數值為準。圖片位置以標註保留，影像另行處理。
+> **譯註**：本譯稿以繁體中文為主體，專有名詞首次出現時附上英文原文與縮寫。原文長度單位為英制，譯文保留原數值並於括號內加註公制換算，實際操作請以原文數值為準。圖片已抽出並嵌入（200 dpi PNG）。
 
 ---
 
@@ -34,7 +40,7 @@
 **5-6.** 呼吸系統由**呼吸道、肺臟與胸廓**組成。呼吸道包含鼻、口、咽喉、喉部與氣管，空氣經此通道進出肺臟。肺臟是兩個具彈性的器官，由數千個微小氣室（肺泡）構成，外覆一層氣密的膜；**支氣管樹**是肺臟的一部分。胸廓則是後方連接脊柱、前方連接胸骨的結構，保護心臟與肺臟；胸廓上端由頸部結構封閉，下端由一片稱為**橫膈膜**的大型穹頂狀肌肉與腹腔分隔（見第 60 頁圖 5-1）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-01.png" alt="圖 5-1．呼吸道、肺臟與胸廓" />
+  <img src="/images/atp-4-02.11/fig-05-01.png" alt="圖 5-1．呼吸道、肺臟與胸廓" />
   <figcaption>圖 5-1．呼吸道、肺臟與胸廓（原書 p.60）<br />原文圖說：Figure 5-1. Airway, lungs, and the rib cage</figcaption>
 </figure>
 
@@ -48,9 +54,9 @@
 
 > **譯註**：原文此處敘述略有矛盾（「不必要」與「重要」並陳），譯文依原文照譯，實務上請以單位訓練規範為準。
 
-> ### ⚠️ 注意（CAUTION）
->
-> **不可**使用血液或其他體液來潤滑 NPA。
+::: warning 注意（CAUTION）
+**不可**使用血液或其他體液來潤滑 NPA。
+:::
 
 ---
 
@@ -70,12 +76,12 @@
 
 **5-11.** 復甦姿勢可讓血液與黏液自傷患口鼻流出，而不會倒流回呼吸道。但若懷疑有頸部傷勢、將採用提下顎法時，則應跪在傷患**頭側、面朝其腳部**的位置。
 
-> ### ⚠️ 警告（WARNING）
->
-> 若傷患俯臥（面朝下），**須將其身體視為一個整體小心翻轉**，避免軀幹扭轉。扭轉可能使背部、頸部或脊椎傷勢更加複雜。
+::: danger 警告（WARNING）
+若傷患俯臥（面朝下），**須將其身體視為一個整體小心翻轉**，避免軀幹扭轉。扭轉可能使背部、頸部或脊椎傷勢更加複雜。
+:::
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-02.png" alt="圖 5-2．傷患擺位" />
+  <img src="/images/atp-4-02.11/fig-05-02.png" alt="圖 5-2．傷患擺位" />
   <figcaption>圖 5-2．傷患擺位（原書 p.61）<br />原文圖說：Figure 5-2. Casualty positioning</figcaption>
 </figure>
 
@@ -103,13 +109,13 @@
 **5-16.** **舌頭是呼吸道阻塞最常見的單一原因**（見圖 5-3）。多數情況下，只要使用**壓額抬下巴法（head-tilt/chin-lift）** 或**提下顎法（jaw-thrust）** 即可打開呼吸道——此動作能將舌頭拉離咽喉的氣道（見圖 5-4）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-03.png" alt="圖 5-3．呼吸道，阻塞狀態" />
+  <img src="/images/atp-4-02.11/fig-05-03.png" alt="圖 5-3．呼吸道，阻塞狀態" />
   <figcaption>圖 5-3．呼吸道，阻塞狀態（原書 p.62）<br />原文圖說：Figure 5-3. Airway, blocked</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-04.png" alt="圖 5-4．呼吸道，通暢狀態" />
+  <img src="/images/atp-4-02.11/fig-05-04.png" alt="圖 5-4．呼吸道，通暢狀態" />
   <figcaption>圖 5-4．呼吸道，通暢狀態（原書 p.62）<br />原文圖說：Figure 5-4. Airway, opened</figcaption>
 </figure>
 
@@ -119,15 +125,15 @@
 
 > **註**：若口中可見異物或嘔吐物，應儘速清除。
 
-> ### ❗ 重要（IMPORTANT!）
->
-> 清除**看得見**的異物，但**不可**進行盲目的手指清掃（blind finger sweep）。
+::: warning 重要（IMPORTANT!）
+清除**看得見**的異物，但**不可**進行盲目的手指清掃（blind finger sweep）。
+:::
 
-> ### ⚠️ 注意（CAUTION）
->
-> 壓額抬下巴法是打開呼吸道的重要程序；然而施行時須**格外謹慎**，過度施力可能造成進一步的脊椎傷害。
->
-> 對於疑似頸部傷勢或嚴重頭部創傷的傷患，打開呼吸道最安全的方式是**提下顎法**，因為多數情況下該法無須將頸部後仰即可完成。
+::: warning 注意（CAUTION）
+壓額抬下巴法是打開呼吸道的重要程序；然而施行時須**格外謹慎**，過度施力可能造成進一步的脊椎傷害。
+
+對於疑似頸部傷勢或嚴重頭部創傷的傷患，打開呼吸道最安全的方式是**提下顎法**，因為多數情況下該法無須將頸部後仰即可完成。
+:::
 
 #### 壓額抬下巴法（Head-Tilt/Chin-Lift）
 
@@ -136,7 +142,7 @@
 > **註**：手指**不應深壓**下巴下方的軟組織，否則可能反而造成呼吸道阻塞。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-05.png" alt="圖 5-5．壓額抬下巴法打開呼吸道" />
+  <img src="/images/atp-4-02.11/fig-05-05.png" alt="圖 5-5．壓額抬下巴法打開呼吸道" />
   <figcaption>圖 5-5．壓額抬下巴法打開呼吸道（原書 p.63）<br />原文圖說：Figure 5-5. Head-tilt/chin-lift technique of opening the airway</figcaption>
 </figure>
 
@@ -145,7 +151,7 @@
 **5-20.** 提下顎法的施行方式為：施救者以雙手分別抓住傷患下顎兩側的下顎角，同時向上、向前提起下顎（見圖 5-6）。施救者的**手肘應撐在傷患躺臥的平面上**。若嘴唇閉合，可用拇指將下唇往下拉開。若需施行口對口人工呼吸，可用你的臉頰緊貼傷患鼻孔將其封閉。**頭部須小心支撐，不可後仰，也不可左右轉動**；若此法不成功，才可讓頭部略微後仰。對於疑似頸部傷勢的傷患，提下顎法是打開呼吸道最安全的首選方式，因為多數情況下無須將頸部後仰即可完成。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-06.png" alt="圖 5-6．提下顎法打開呼吸道" />
+  <img src="/images/atp-4-02.11/fig-05-06.png" alt="圖 5-6．提下顎法打開呼吸道" />
   <figcaption>圖 5-6．提下顎法打開呼吸道（原書 p.64）<br />原文圖說：Figure 5-6. Jaw-thrust technique of opening the airway</figcaption>
 </figure>
 
@@ -160,7 +166,7 @@
 **5-23.** 嚴重顏面創傷的傷患，往往可藉由**坐起並前傾**來自行保護呼吸道。對清醒的傷患，協助其採取任何能讓自己順暢呼吸的舒適坐姿。若傷患無意識但仍有呼吸，則應擺成**復甦姿勢**（見第 65 頁圖 5-7）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-07.png" alt="圖 5-7．無意識傷患的復甦姿勢" />
+  <img src="/images/atp-4-02.11/fig-05-07.png" alt="圖 5-7．無意識傷患的復甦姿勢" />
   <figcaption>圖 5-7．無意識傷患的復甦姿勢（原書 p.65）<br />原文圖說：Figure 5-7. Unconscious Casualty Recovery Position</figcaption>
 </figure>
 
@@ -173,7 +179,7 @@
 **5-25.** 第二級呼吸道控制技能的主要目標，是確認第一級技能已經施行，再加上第二級專屬的**鼻咽呼吸道置入**，並持續監測傷患是否出現第 5-3 段所述的呼吸道受損徵象。若傷患出現無法自主呼吸的徵象，**必須立即通知醫療人員**。醫療人員可能會要求戰鬥救生員（CLS）協助，使用**甦醒球面罩（bag valve mask, BVM）** 提供呼吸支援（見圖 5-8）。當觀察到呼吸減弱時，就有必要以 BVM 提供換氣支持，醫療人員可能會請 CLS 協助操作。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-08.png" alt="圖 5-8．甦醒球面罩" />
+  <img src="/images/atp-4-02.11/fig-05-08.png" alt="圖 5-8．甦醒球面罩" />
   <figcaption>圖 5-8．甦醒球面罩（原書 p.65）<br />原文圖說：Figure 5-8. Bag valve mask</figcaption>
 </figure>
 
@@ -182,13 +188,13 @@
 **5-27.** 換氣可由一人單獨施行，或由兩人協同施行。面罩以「**E-C 夾持法**」握持（見第 66 頁圖 5-9），罩在傷患口鼻上密合，使空氣不外漏（見第 66 頁圖 5-10）。接著穩固擠壓甦醒球**一至二秒**，每次間隔**五至六秒**。Deployed Medicine 網站設有單人與雙人 BVM 正確操作的教學影片。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-09.png" alt="圖 5-9．甦醒球面罩握持技巧" />
+  <img src="/images/atp-4-02.11/fig-05-09.png" alt="圖 5-9．甦醒球面罩握持技巧" />
   <figcaption>圖 5-9．甦醒球面罩握持技巧（原書 p.66）<br />原文圖說：Figure 5-9. Bag valve mask holding technique</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-10.png" alt="圖 5-10．甦醒球面罩罩於傷患口鼻" />
+  <img src="/images/atp-4-02.11/fig-05-10.png" alt="圖 5-10．甦醒球面罩罩於傷患口鼻" />
   <figcaption>圖 5-10．甦醒球面罩罩於傷患口鼻（原書 p.66）<br />原文圖說：Figure 5-10. Bag valve mask applied to casualty</figcaption>
 </figure>
 
@@ -205,7 +211,7 @@
 **5-30.** 評估與處置呼吸道阻塞時，先詢問傷患**是否能說話、是否正在哽塞**，並檢查有無**哽塞通用手勢**（見第 67 頁圖 5-11）。若傷患能有效說話或咳嗽，鼓勵其繼續咳嗽——這代表其氣體交換仍良好，**你不應介入**其排除阻塞物的努力。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-11.png" alt="圖 5-11．哽塞通用手勢" />
+  <img src="/images/atp-4-02.11/fig-05-11.png" alt="圖 5-11．哽塞通用手勢" />
   <figcaption>圖 5-11．哽塞通用手勢（原書 p.67）<br />原文圖說：Figure 5-11. The universal sign for choking</figcaption>
 </figure>
 
@@ -222,13 +228,13 @@
 3. 以快速的**向後、向上**推力將拳頭壓入腹部（見第 68 頁圖 5-13）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-12.png" alt="圖 5-12．腹部推擠程序的解剖視角" />
+  <img src="/images/atp-4-02.11/fig-05-12.png" alt="圖 5-12．腹部推擠程序的解剖視角" />
   <figcaption>圖 5-12．腹部推擠程序的解剖視角（原書 p.68）<br />原文圖說：Figure 5-12. Anatomical view of the abdominal thrust procedure</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-13.png" alt="圖 5-13．腹部推擠的側視圖" />
+  <img src="/images/atp-4-02.11/fig-05-13.png" alt="圖 5-13．腹部推擠的側視圖" />
   <figcaption>圖 5-13．腹部推擠的側視圖（原書 p.68）<br />原文圖說：Figure 5-13. Profile view of the abdominal thrust</figcaption>
 </figure>
 
@@ -245,7 +251,7 @@
 3. 另一手包覆該拳並施加推力（見第 69 頁圖 5-14）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-14.png" alt="圖 5-14．胸部推擠的側視圖" />
+  <img src="/images/atp-4-02.11/fig-05-14.png" alt="圖 5-14．胸部推擠的側視圖" />
   <figcaption>圖 5-14．胸部推擠的側視圖（原書 p.69）<br />原文圖說：Figure 5-14. Profile view of the chest thrust</figcaption>
 </figure>
 
@@ -280,7 +286,7 @@
 1. **跨跪**在傷患大腿兩側（見圖 5-15）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-15.png" alt="圖 5-15．對無反應傷患施行腹部推擠" />
+  <img src="/images/atp-4-02.11/fig-05-15.png" alt="圖 5-15．對無反應傷患施行腹部推擠" />
   <figcaption>圖 5-15．對無反應傷患施行腹部推擠（原書 p.70）<br />原文圖說：Figure 5-15. Abdominal thrust on an unresponsive casualty</figcaption>
 </figure>
 
@@ -298,18 +304,18 @@
 5. **打直並鎖住手肘**，肩膀垂直位於雙手正上方，不可彎肘、不可前後搖晃、不可讓肩膀下垂。
 6. 施加足夠壓力使**胸骨下壓 1½ 至 2 英寸（約 4 至 5 公分）**，然後**完全釋放**壓力（見第 71 頁圖 5-16 步驟 D）。此按壓與釋放的過程須快速且界線分明，重複**六至十次**。第 71 頁圖 5-17 為胸骨下壓的另一視角。
 
-> ### ⚠️ 注意（CAUTION）
->
-> 施救者可能會感覺到肋骨斷裂——**這是可以接受的**，因為當下是危及生命的狀況。
+::: warning 注意（CAUTION）
+施救者可能會感覺到肋骨斷裂——**這是可以接受的**，因為當下是危及生命的狀況。
+:::
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-16.png" alt="圖 5-16．胸部推擠的手部位置" />
+  <img src="/images/atp-4-02.11/fig-05-16.png" alt="圖 5-16．胸部推擠的手部位置" />
   <figcaption>圖 5-16．胸部推擠的手部位置（原書 p.71）<br />原文圖說：Figure 5-16. Hand placement for the chest thrust</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-17.png" alt="圖 5-17．胸骨下壓 1½ 至 2 英寸" />
+  <img src="/images/atp-4-02.11/fig-05-17.png" alt="圖 5-17．胸骨下壓 1½ 至 2 英寸" />
   <figcaption>圖 5-17．胸骨下壓 1½ 至 2 英寸（原書 p.71）<br />原文圖說：Figure 5-17. Breastbone depressed 1 1/2 to 2 inches</figcaption>
 </figure>
 
@@ -322,26 +328,26 @@
 3. 使用**舌顎上提法（tongue-jaw lift）** 打開傷患口部：以拇指與其餘手指同時抓住傷患的**舌頭與下顎**並向上提起（見圖 5-18）。若無法打開其口部，改用**交叉手指法（crossed-finger method）**——拇指與食指交叉，拇指抵住傷患上排牙齒、食指抵住下排牙齒，將牙關撐開（見圖 5-19）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-18.png" alt="圖 5-18．打開傷患口部（舌顎上提法）" />
+  <img src="/images/atp-4-02.11/fig-05-18.png" alt="圖 5-18．打開傷患口部（舌顎上提法）" />
   <figcaption>圖 5-18．打開傷患口部（舌顎上提法）（原書 p.72）<br />原文圖說：Figure 5-18. Opening the casualty's mouth (tongue-jaw lift)</figcaption>
 </figure>
 
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-19.png" alt="圖 5-19．打開傷患口部（交叉手指法）" />
+  <img src="/images/atp-4-02.11/fig-05-19.png" alt="圖 5-19．打開傷患口部（交叉手指法）" />
   <figcaption>圖 5-19．打開傷患口部（交叉手指法）（原書 p.72）<br />原文圖說：Figure 5-19. Opening the casualty's mouth (crossed-finger method)</figcaption>
 </figure>
 
 4. 將另一手的**食指**沿頰內側伸入至舌根，自口腔一側朝中央以**鉤取**的動作將異物撥出（見圖 5-20）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-05-20.png" alt="圖 5-20．以手指撥出異物" />
+  <img src="/images/atp-4-02.11/fig-05-20.png" alt="圖 5-20．以手指撥出異物" />
   <figcaption>圖 5-20．以手指撥出異物（原書 p.72）<br />原文圖說：Figure 5-20. Using a finger to dislodge a foreign body</figcaption>
 </figure>
 
-> ### ⚠️ 警告（WARNING）
->
-> 小心不要用手指把異物**往更深處推入**呼吸道。
+::: danger 警告（WARNING）
+小心不要用手指把異物**往更深處推入**呼吸道。
+:::
 
 ---
 

@@ -1,8 +1,14 @@
+---
+title: 第 15 章　傷患監測與後送準備
+order: 15
+status: published
+---
+
 # 第 15 章　傷患監測與後送準備
 
 > **來源**：ATP 4-02.11《陸軍傷患處置、戰術戰傷救護與急救技術準則》，2026 年 3 月 23 日版
 > **對應原文**：Chapter 15 — Casualty Monitoring and Evacuation Preparation（印刷頁 151–158 / PDF 頁 165–172）
-> **譯註**：本譯稿以繁體中文為主體，專有名詞首次出現時附上英文原文與縮寫。圖片位置以標註保留；圖 15-2（DD Form 1380 範例）的圖例縮寫表已完整譯出。本章為 PART TWO（戰術戰傷救護）的最後一章。
+> **譯註**：本譯稿以繁體中文為主體，專有名詞首次出現時附上英文原文與縮寫。圖片已抽出並嵌入（200 dpi PNG）；圖 15-2（DD Form 1380 範例）的圖例縮寫表已完整譯出。本章為 PART TWO（戰術戰傷救護）的最後一章。
 
 ---
 
@@ -25,7 +31,7 @@
 > **註**：**橈動脈搏消失，即代表傷患處於休克狀態。**
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-15-01.png" alt="圖 15-1．檢查脈搏的手法" />
+  <img src="/images/atp-4-02.11/fig-15-01.png" alt="圖 15-1．檢查脈搏的手法" />
   <figcaption>圖 15-1．檢查脈搏的手法（原書 p.152）<br />原文圖說：Figure 15-1. Technique to Check the Pulse</figcaption>
 </figure>
 
@@ -72,7 +78,7 @@
 > **註 2**：市面上許多傷患卡**並未完整複製** DD Form 1380 的所有資訊欄位。DD Form 1380 雖可在當地翻印，但應使用**防水紙或護貝**，並具備附掛於傷患身上的方式。最好備有**不褪色或永久性麥克筆**，以便在 TCCC 卡上書寫。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-15-02.png" alt="圖 15-2．DD Form 1380 範例（戰術戰傷救護 TCCC 卡）" />
+  <img src="/images/atp-4-02.11/fig-15-02.png" alt="圖 15-2．DD Form 1380 範例（戰術戰傷救護 TCCC 卡）" />
   <figcaption>圖 15-2．DD Form 1380 範例（戰術戰傷救護 TCCC 卡）（原書 p.154）<br />原文圖說：Figure 15-2. Sample DD Form 1380, The Tactical Combat Casualty Care (TCCC) Card</figcaption>
 </figure>
 

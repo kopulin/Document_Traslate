@@ -1,3 +1,9 @@
+---
+title: 附錄 B　救援裝備
+order: 22
+status: published
+---
+
 # 附錄 B　救援裝備
 
 > **來源**：ATP 4-02.11《陸軍傷患處置、戰術戰傷救護與急救技術準則》，2026 年 3 月 23 日版
@@ -11,7 +17,7 @@
 **B-1.** **戰士救護與擔架套件（warrior aid and litter kit, WALK）**（見圖 B-1），可在 CASEVAC 車輛上對**一名患者**施行急救處置與立即後送，並可在**受傷地點（POI）** 處置**多名創傷患者**。WALK 全套總重約 **29 磅 15 盎司（約 13.6 公斤）**。**WALK 可作為車載救命套件的一種選擇。**
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-b-01.png" alt="圖 B-1．戰士救護與擔架套件（WALK）" />
+  <img src="/images/atp-4-02.11/fig-b-01.png" alt="圖 B-1．戰士救護與擔架套件（WALK）" />
   <figcaption>圖 B-1．戰士救護與擔架套件（WALK）（原書 p.224）<br />原文圖說：Figure B-1. Warrior aid and litter kit</figcaption>
 </figure>
 
@@ -35,7 +41,7 @@
 - 綁縛束帶 **4 條**（萬用擔架用）。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-b-02.png" alt="圖 B-2．四折式擔架" />
+  <img src="/images/atp-4-02.11/fig-b-02.png" alt="圖 B-2．四折式擔架" />
   <figcaption>圖 B-2．四折式擔架（原書 p.225）<br />原文圖說：Figure B-2. Quad-fold litter</figcaption>
 </figure>
 
@@ -50,7 +56,7 @@
 **B-5.** 本系統配備可供**直升機水平吊掛**、或在洞穴與工業侷限空間中**垂直吊掛**的裝置。**傷患一經包紮固定，擔架即變為剛性。** 收納時可捲起放入背包內（背包隨系統附帶）。此擔架系統重約 **17 磅（約 7.7 公斤）**。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-b-03.png" alt="圖 B-3．使用高分子軟式擔架系統實施傷患後送" />
+  <img src="/images/atp-4-02.11/fig-b-03.png" alt="圖 B-3．使用高分子軟式擔架系統實施傷患後送" />
   <figcaption>圖 B-3．使用高分子軟式擔架系統實施傷患後送（原書 p.226）<br />原文圖說：Figure B-3. Casualty evacuation using the polymer flexible litter system</figcaption>
 </figure>
 

@@ -1,3 +1,9 @@
+---
+title: 附錄 A　急救盒與急救包、核定醫材清單
+order: 21
+status: published
+---
+
 # 附錄 A　急救盒與急救包、核定醫材清單
 
 > **來源**：ATP 4-02.11《陸軍傷患處置、戰術戰傷救護與急救技術準則》，2026 年 3 月 23 日版
@@ -55,7 +61,7 @@
 **A-4.** **第一代 IFAK（Generation I）** 由**中央發放所（Central Issue Facility）** 配發給每一位官兵，用於施行立即的自救與互救。**每一位官兵都必須受過 IFAK 全部內容物的使用訓練。** 此 IFAK **未包含**用於 NDC（胸腔針刺減壓）的針頭或靜脈留置針。見第 218 頁圖 A-1 與表 A-2。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-a-01.png" alt="圖 A-1．第一代個人急救包（IFAK Generation I）" />
+  <img src="/images/atp-4-02.11/fig-a-01.png" alt="圖 A-1．第一代個人急救包（IFAK Generation I）" />
   <figcaption>圖 A-1．第一代個人急救包（IFAK Generation I）（原書 p.218）<br />原文圖說：Figure A-1. Individual First Aid Kit, Generation I</figcaption>
 </figure>
 
@@ -84,7 +90,7 @@
 > **譯註（原文自相矛盾）**：本段位於「第一代 IFAK」小節之下，開頭卻寫「**This IFAK** includes two Combat Application TQs（此一 IFAK 含兩條 CAT）」；然而**表 A-2（第一代）僅列 1 條 CAT，表 A-3（第二代）才是 2 條**。依上下文，本段「此一 IFAK」實指**第二代**。譯文照錄原文，不予修正。
 
 <figure>
-  <img src="../docs/public/images/atp-4-02.11/fig-a-02.png" alt="圖 A-2．第二代個人急救包（IFAK Generation II）" />
+  <img src="/images/atp-4-02.11/fig-a-02.png" alt="圖 A-2．第二代個人急救包（IFAK Generation II）" />
   <figcaption>圖 A-2．第二代個人急救包（IFAK Generation II）（原書 p.219）<br />原文圖說：Figure A-2. Individual First Aid Kit, Generation II</figcaption>
 </figure>
 

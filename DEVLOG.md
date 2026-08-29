@@ -4,6 +4,42 @@
 
 ---
 
+## 2026-08-29（第七場）— P2 架站完成，VitePress 網站可 build 可預覽
+
+由 Claude Code 執行（使用者裁示「go，不用問」）。
+
+### 完成項目
+
+| 項目 | 結果 |
+|------|------|
+| 搬檔 | 22 份逐章 `.md`（ATP_4-02.11/ → `docs/atp-4-02.11/`），改 slug 檔名（對照表照 AGENTS.md），每檔加 frontmatter（`title`/`order`/`status`）。原 `ATP_4-02.11/*_Ch*_zh-TW.md` 已 `git rm`，PDF 留原地 |
+| 圖片路徑 | `../docs/public/images/atp-4-02.11/` → `/images/atp-4-02.11/`（109 處，一次 replace）。build 後實測 base 前綴自動補為 `/Document_Traslate/images/…`，32 張圖的 Ch13 頁面全部載入 |
+| 警告框 | 80 處 `> ### ⚠️/❗` 多行 blockquote → VitePress container：WARNING→`::: danger`、CAUTION/IMPORTANT→`::: warning`，帶原標題。`> **註**：…` 維持 blockquote |
+| 站台程式 | `docs/.vitepress/config.ts`（zh-TW、`base: /Document_Traslate/`、四段側欄 PART ONE~THREE+附錄、local 中文搜尋、cleanUrls）、`docs/index.md`（hero + 22 卡片 + 免責橫幅 + 關於本站）、`docs/errata.md`（28 處原文勘誤，從六則 DEVLOG 彙整）、`theme/{index.ts,custom.css}`（沿用 tccc-notes IBM Carbon + 追加列印 CSS 與 figure/blockquote 樣式） |
+| 部署設定 | `.github/workflows/deploy.yml`（沿用 tccc-notes）、`package.json`（vitepress ^1.6.3，實裝 1.6.4）、`.claude/launch.json`（port 5174）、`.gitignore` 併入 `node_modules/`、`docs/.vitepress/{dist,cache}` |
+
+### 驗收
+
+- `npm run docs:build` 通過，**無 dead link**；`dist/` 產出 24 個 HTML + 110 個 image 檔（109 圖 + `_manifest.json`）
+- 本機 `vitepress dev` 預覽：首頁（hero/橫幅/22 卡片/footer 授權）、Ch06（`::: danger`/`::: warning` 樣式正確）、Ch13（32 張圖全載入、outline、側欄 active）、errata（`::: warning` callout + 表格）全部正常
+- 修掉 3 處 Markdown 粗體 render bug：`**…）**字`（closing `**` 夾在全形右括號與 CJK 之間，CommonMark flanking 規則不成立）→ 改用 `<strong>`。位置：`06-respiration-ventilation.md:56`、`07-circulation.md:25,164`。其餘 `字**（英文）` 這類標準寫法 markdown-it 處理正常，已抽查確認
+
+### 未做 / 交還使用者
+
+- **GitHub Pages 尚未啟用**：需在 repo Settings → Pages 設 Source = GitHub Actions，push 後 `deploy.yml` 會自動 build。首次要人工按一下
+- **P3｜合併全書術語表**（22 檔末合計約 530 條，未去重）
+- **P3｜譯文逐章內容驗收**（機器驗證都過，內容層面仍未經使用者確認）
+- errata.md 是從 DEVLOG 表格轉錄，未再逐條回原文複查
+
+### 給下一個 agent 的提醒
+
+1. canonical 位置是 `docs/atp-4-02.11/`，不要再碰舊路徑。改譯文直接改 `docs/` 內的檔
+2. 本機預覽：`npm run docs:dev`（port 5174）。改 `config.ts` 側欄要同步 `index.md` 卡片
+3. 圖片 `src` 一律 `/images/atp-4-02.11/…`，**不要**寫 `/Document_Traslate/…`，base 由 VitePress 自動加
+4. 新增章節頁面時記得補 frontmatter，否則 `order` 排序會亂
+
+---
+
 ## 2026-08-29（第六場）— P1 圖片工序完成，109 張全數入稿
 
 ### 完成項目
