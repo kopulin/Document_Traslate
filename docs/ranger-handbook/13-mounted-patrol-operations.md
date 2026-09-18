@@ -1,3 +1,9 @@
+---
+title: 第 13 章　車載巡邏
+order: 13
+status: published
+---
+
 # 第 13 章　車載巡邏作戰
 
 > **來源**：TC 3-21.76《遊騎兵手冊》（Ranger Handbook），2025 年 9 月 19 日版

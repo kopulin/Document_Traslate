@@ -1,3 +1,9 @@
+---
+title: 第 5 章　爆破
+order: 5
+status: published
+---
+
 # 第 5 章　爆破
 
 > **來源**：TC 3-21.76《遊騎兵手冊》（Ranger Handbook），2025 年 9 月 19 日版

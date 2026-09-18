@@ -1,3 +1,9 @@
+---
+title: 第 15 章　戰術戰傷救護
+order: 15
+status: published
+---
+
 # 第 15 章　戰術戰傷救護
 
 > **來源**：TC 3-21.76《遊騎兵手冊》（Ranger Handbook），2025 年 9 月 19 日版

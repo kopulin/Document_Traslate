@@ -1,3 +1,9 @@
+---
+title: 附錄 A　資源
+order: 16
+status: published
+---
+
 # 附錄 A　資源
 
 > **來源**：TC 3-21.76《遊騎兵手冊》（Ranger Handbook），2025 年 9 月 19 日版

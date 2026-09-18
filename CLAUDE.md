@@ -21,9 +21,12 @@ Codex／其他 agent 讀 [`AGENTS.md`](AGENTS.md)，兩份以本檔為準。
 **發佈方式（2026-08-29 決策，取代舊「發佈拆分／另開 repo」規則）：**
 譯文網站與翻譯內容**放同一個 repo**，比照 [`/Projects/tccc-notes/`](../tccc-notes/) 的 VitePress 架構：
 
-- `docs/` 為 VitePress 根；`docs/atp-4-02.11/*.md` 為逐章譯文的 canonical 位置
-- `docs/public/images/` 放圖，`docs/.vitepress/` 放設定與主題（IBM Carbon 風格，直接沿用 tccc-notes 的 `custom.css`）
-- 原始 PDF 留在 `ATP_4-02.11/`，**不進 `docs/`**（不打包進網站）
+- `docs/` 為 VitePress 根，**採「首頁分流多手冊」架構**：`docs/index.md` 是手冊選單首頁，每本手冊各自一個子資料夾＋自己的 `index.md`（手冊首頁）＋逐章 `.md`（canonical 位置）
+  - ATP 4-02.11 → `docs/atp-4-02.11/`
+  - TC 3-21.76 → `docs/ranger-handbook/`
+  - 新增手冊時比照：`docs/<手冊代號>/`，並在 `config.ts` 的 `sidebar` 物件加一組對應路徑的側欄
+- `docs/public/images/<手冊代號>/` 放圖，`docs/.vitepress/` 放設定與主題（IBM Carbon 風格，直接沿用 tccc-notes 的 `custom.css`）
+- 原始 PDF 留在各自的原始資料夾（如 `ATP_4-02.11/`、`TC_3-21.76/`），**不進 `docs/`**（不打包進網站）
 - GitHub Actions 自動 build 並部署到 GitHub Pages（沿用 `deploy-to-github-pages` skill）
 
 單一事實來源（source of truth）＝`docs/` 內的 Markdown 與圖片。
@@ -44,18 +47,21 @@ Codex／其他 agent 讀 [`AGENTS.md`](AGENTS.md)，兩份以本檔為準。
 ```
 Document_Traslate/
 ├─ ATP_4-02.11/…_March_2026.pdf        原始 PDF（source，不進網站）
+├─ TC_3-21.76/…_Ranger_Handbook.pdf    原始 PDF（source，不進網站）
 ├─ docs/                               VitePress 根
-│  ├─ index.md                         首頁（hero + 章節卡片 + 版本免責橫幅）
-│  ├─ atp-4-02.11/                     逐章譯文 .md（canonical，slug 檔名）
-│  ├─ public/images/atp-4-02.11/       圖檔（fig-<章>-<序>.png）
+│  ├─ index.md                         首頁：手冊選單（2 張卡片，不特定任一手冊）
+│  ├─ atp-4-02.11/                     ATP 4-02.11：自己的 index.md + 逐章譯文 .md（canonical，slug 檔名）
+│  ├─ ranger-handbook/                 TC 3-21.76：自己的 index.md + 逐章譯文 .md（canonical，slug 檔名）
+│  ├─ public/images/atp-4-02.11/       ATP 圖檔（fig-<章>-<序>.png）
+│  ├─ public/images/ranger-handbook/   TC 圖檔（尚未抽圖，暫無內容）
 │  └─ .vitepress/
-│     ├─ config.ts                     側欄、local 中文搜尋、base 路徑
+│     ├─ config.ts                     nav／sidebar（依路徑分流，每本手冊一組）／local 中文搜尋／base 路徑
 │     └─ theme/{index.ts,custom.css}   IBM Carbon 主題
 ├─ .github/workflows/deploy.yml        GitHub Pages 自動部署
 └─ package.json                        vitepress 依賴
 ```
 
-**狀態（2026-08-29 第七場）：** 逐章 `.md` 已全數搬入 `docs/atp-4-02.11/`（slug 檔名 + frontmatter），VitePress 網站已架好（`config.ts`／`index.md`／主題／`deploy.yml`／`package.json`），`npm run docs:build` 通過。過渡期結束，canonical 位置即 `docs/`。剩 GitHub Pages 首次啟用與 P3（術語表、逐章驗收）。
+**狀態（2026-09-18）：** 首頁分流多手冊架構已完成。ATP 4-02.11（20 章+2 附錄，含圖）與 TC 3-21.76（前言+15 章+2 附錄+詞彙表，圖片尚為文字佔位）皆已搬入 `docs/`，各自 canonical 位置與側欄互不干擾。`npm run docs:build` 通過，本機預覽驗過首頁分流與 TC 章節的 VitePress container 樣式。剩 GitHub Pages 首次啟用、TC 抽圖、兩份手冊的逐章內容驗收。
 
 ---
 

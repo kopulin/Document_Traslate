@@ -1,3 +1,9 @@
+---
+title: 第 9 章　軍事登山
+order: 9
+status: published
+---
+
 # 第 9 章　軍事登山
 
 > **來源**：TC 3-21.76《遊騎兵手冊》（Ranger Handbook），2025 年 9 月 19 日版

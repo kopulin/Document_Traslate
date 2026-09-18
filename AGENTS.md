@@ -19,7 +19,7 @@
 | 文件 | 位置 | 狀態 |
 |------|------|------|
 | ATP 4-02.11《Casualty Response (TCCC and First Aid)》 | 譯文 [`docs/atp-4-02.11/`](docs/atp-4-02.11/)　原始 PDF [`ATP_4-02.11/`](ATP_4-02.11/) | 翻譯完成，網站已架設 |
-| TC 3-21.76《Ranger Handbook》 | [`TC_3-21.76/`](TC_3-21.76/) | **文字全數翻譯完成**（前言、Ch01–Ch15、附錄 A／B、詞彙表），待驗收與抽圖，網站尚未併入 |
+| TC 3-21.76《Ranger Handbook》 | 譯文 [`docs/ranger-handbook/`](docs/ranger-handbook/)　原始 PDF [`TC_3-21.76/`](TC_3-21.76/) | **文字全數翻譯完成**，已併入網站（`/ranger-handbook/`），待驗收與抽圖（圖片仍為文字佔位） |
 
 ATP 4-02.11 章節（檔案欄為架站後的 canonical 檔名）：
 
@@ -55,7 +55,7 @@ ATP 4-02.11 章節（檔案欄為架站後的 canonical 檔名）：
 > ✅ **P2｜VitePress 網站已架設**（2026-08-29 第七場）——譯文搬入 `docs/atp-4-02.11/`（slug 檔名 + frontmatter），80 處 WARNING/CAUTION/IMPORTANT 轉 `::: danger`/`::: warning`，圖片路徑轉絕對路徑，`config.ts`／`index.md`／IBM Carbon 主題（含列印 CSS）／`deploy.yml`／`package.json` 全部到位。`npm run docs:build` 通過、本機預覽驗過。
 > ⏳ 剩 P3：合併術語表、譯文逐章內容驗收（機器驗證都過，內容層面未經使用者確認）、GitHub Pages 首次啟用。
 > ℹ️ 2026-08-29 發佈架構定案：單一 repo + VitePress，詳見 DEVLOG 第五場。
-> ⚠️ **2026-09-18 裁示**：首頁結構要改為「多手冊分流」（首頁選單 → 各手冊 `/<手冊代號>/` 子路徑），目前 `docs/index.md` 仍是「單一手冊即整站」的舊結構，待下一階段調整；TC 3-21.76 尚未併入網站。
+> ✅ **2026-09-18 首頁分流完成**：`docs/index.md` 改為手冊選單（2 張卡片），ATP 首頁搬到 `docs/atp-4-02.11/index.md`，新增 `docs/ranger-handbook/`（TC 3-21.76，19 個檔案：前言＋Ch01–15＋附錄 A/B＋詞彙表＋自己的 index.md）。`config.ts` 的 `sidebar` 改為依路徑分流的物件（`/atp-4-02.11/`、`/errata`、`/ranger-handbook/` 各自一份），`nav`／`title`／`footer` 改為涵蓋兩份手冊的中性文案。TC 章節內 6 處 WARNING／CAUTION／DANGER blockquote 一併轉為 VitePress container（DANGER 比照 WARNING 用 `::: danger`），NOTE 維持 blockquote。`npm run docs:build` 通過，本機預覽確認側欄分流與 container 樣式正確。
 
 原始 PDF：`ATP_4-02.11/ATP_4-02.11_Casualty_Response_TCCC_and_First_Aid_March_2026.pdf`（不進 `docs/`）
 

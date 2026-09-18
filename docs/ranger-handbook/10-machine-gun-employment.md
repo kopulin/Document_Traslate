@@ -1,3 +1,9 @@
+---
+title: 第 10 章　機槍運用
+order: 10
+status: published
+---
+
 # 第 10 章　機槍運用
 
 > **來源**：TC 3-21.76《遊騎兵手冊》（Ranger Handbook），2025 年 9 月 19 日版

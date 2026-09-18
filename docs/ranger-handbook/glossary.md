@@ -1,3 +1,9 @@
+---
+title: 詞彙表（Glossary）
+order: 18
+status: published
+---
+
 # 詞彙表
 
 > **來源**：TC 3-21.76《遊騎兵手冊》（Ranger Handbook），2025 年 9 月 19 日版

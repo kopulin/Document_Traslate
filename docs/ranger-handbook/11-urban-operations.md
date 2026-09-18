@@ -1,3 +1,9 @@
+---
+title: 第 11 章　城鎮作戰
+order: 11
+status: published
+---
+
 # 第 11 章　城鎮作戰
 
 > **來源**：TC 3-21.76《遊騎兵手冊》（Ranger Handbook），2025 年 9 月 19 日版
