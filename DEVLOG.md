@@ -4,6 +4,68 @@
 
 ---
 
+## 2026-09-18（延續場）— 整併分岔＋執行首頁分流多手冊架構
+
+> **接續上一則「裁示」場次，本場把架構決策付諸實作：整併本機／遠端分岔、改 AGENTS.md／CLAUDE.md、VitePress 多手冊改版全部完成並上線。**
+
+### 完成項目
+
+1. **整併本機與遠端分岔**（commit `c02e191`）——本機的 TC 3-21.76 全書翻譯＋ATP 用語修正，與遠端的 ATP Ch01–03/附錄＋VitePress 架站雛形合併。3 個真衝突（`AGENTS.md`、`DEVLOG.md`、`docs/atp-4-02.11/07-circulation.md`）人工解決，其餘 153 個檔案靠 git rename 偵測自動合併。已 push。
+2. **首頁改為多手冊分流架構**（commit `fbe355f`）——`docs/index.md` 改成手冊選單首頁；TC 3-21.76 全套 19 個檔案（前言＋Ch01–15＋附錄 A/B＋詞彙表）搬進 `docs/ranger-handbook/`（改 slug、補 frontmatter）＋新增自己的 index.md；ATP 首頁搬到 `docs/atp-4-02.11/index.md`；`config.ts` 側欄改依路徑分流；TC 章節內 6 處 WARNING/CAUTION/DANGER blockquote 轉成 VitePress container。已 push。
+3. **首頁視覺微調**（同一個 commit）——卡片標題改用好懂書名（Casualty Response／Ranger Handbook，文件編號移入說明文字）、hero 大標精簡為「手冊中文譯本」、警告區塊與卡片間加 margin、header 網站名稱與 nav 連結一併改用書名。
+
+### 設計師決策記錄
+
+#### TC 3-21.76 網站路徑 slug 選字
+
+| 欄位 | 內容 |
+|------|------|
+| 考慮選項 | A：`tc-3-21.76`（跟 ATP 用文件編號的命名風格一致）／B：`ranger-handbook`（用書名，較好記但跟 ATP 風格不一致） |
+| 決定 | **方案 B，`ranger-handbook`** |
+| 理由 | 好記、好懂 |
+| 可重新討論的條件 | 無特殊條件；**未來新增手冊的 slug 一律優先用書名命名**，只有沒有好懂英文書名時才退回用文件編號 |
+| 記錄時間 | 2026-09-18 |
+
+#### TC 3-21.76 搬入 docs/ 的時機（抽圖前 vs 抽圖後）
+
+| 欄位 | 內容 |
+|------|------|
+| 考慮選項 | A：這次先搬進 `docs/`，圖片維持文字佔位／B：等全書抽圖完成後再搬，避免文字佔位影響上線後的閱讀體驗 |
+| 決定 | **方案 A** |
+| 理由 | 抽圖是獨立工序，不影響网站上線 |
+| 可重新討論的條件 | 無特殊條件 |
+| 記錄時間 | 2026-09-18 |
+
+#### TC 章節「危險（DANGER）」標示的 VitePress 樣式
+
+| 欄位 | 內容 |
+|------|------|
+| 考慮選項 | A：與 WARNING 用同一種 `::: danger` 紅色框／B：另開一組樣式與 WARNING 區分 |
+| 決定 | **方案 A**（agent 執行時的判斷，經設計師事後確認） |
+| 理由 | DANGER 與 WARNING 都是攸關生命安全的警告，視覺上不需要再細分 |
+| 可重新討論的條件 | 無特殊條件 |
+| 記錄時間 | 2026-09-18 |
+
+### 已知問題 / 技術債
+
+- [ ] **TC 3-21.76 全書尚未抽圖**｜圖片仍為文字佔位｜Blocking：否（不影響已上線內容，但影響閱讀體驗）
+- [ ] **GitHub Pages 是否已啟用未確認**｜需在 repo Settings → Pages 確認 Source = GitHub Actions｜Blocking：否
+- [ ] **兩份手冊的逐章內容尚未經使用者驗收**｜機器驗證都過，內容層面（術語、語意）未經使用者逐章確認｜Blocking：否
+
+### 下一步 To-Do
+
+- [ ] P1｜TC 3-21.76 全書抽圖（比照 ATP 的方案 B：PyMuPDF 依版面座標重新渲染，200 dpi），完成後把 `docs/ranger-handbook/` 內的文字佔位改為 `<figure>` 語法
+- [ ] P1｜確認 GitHub Pages 是否已啟用（Settings → Pages → Source = GitHub Actions），必要時手動啟用一次
+- [ ] P1｜兩份手冊逐章內容驗收（ATP Ch02–20＋附錄、TC 全書），目前僅使用者驗收過 ATP Ch01 與 TC Ch01 的術語
+- [ ] P2｜TC Ch10 機槍運用的射擊分類譯名確認（是否改用國軍慣用語）
+- [ ] P3｜其他雜項收尾（術語表是否併入網站當參考頁、跨文件術語總表是否需要頁面等）
+
+### 環境異動
+
+- 無異動（`npm install` 只是還原既有 `package.json`/`package-lock.json` 的依賴，非新增套件）
+
+---
+
 ## 2026-09-18 — 裁示：網站併入本 repo，多手冊首頁分流架構
 
 > **使用者因 token 即將用盡，先拍板架構決策，實際執行（本機／遠端整併、改 AGENTS.md／CLAUDE.md、VitePress 多文件改版）留到下次 session。**
