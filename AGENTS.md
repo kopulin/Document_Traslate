@@ -19,7 +19,7 @@
 | 文件 | 位置 | 狀態 |
 |------|------|------|
 | ATP 4-02.11《Casualty Response (TCCC and First Aid)》 | [`ATP_4-02.11/`](ATP_4-02.11/) | 翻譯中 |
-| TC 3-21.76《Ranger Handbook》 | [`TC_3-21.76/`](TC_3-21.76/) | 翻譯中（Ch01–Ch14） |
+| TC 3-21.76《Ranger Handbook》 | [`TC_3-21.76/`](TC_3-21.76/) | **文字全數翻譯完成**（前言、Ch01–Ch15、附錄 A／B、詞彙表），待驗收與抽圖 |
 
 ATP 4-02.11 章節：
 
@@ -58,7 +58,7 @@ TC 3-21.76 章節（2025 年 9 月 19 日版，共 380 頁；PDF 頁為檔案實
 
 | 章 | 原書章名 | PDF 頁 | 狀態 |
 |----|---------|--------|------|
-| 前言 | Preface／Introduction | 17–24 | **未翻譯** |
+| 前言 | Preface／Introduction → `TC_3-21.76_Ch00_前言與導言_zh-TW.md` | 17–24 | 已翻譯，待驗收 |
 | Ch01 | Leadership → `TC_3-21.76_Ch01_領導_zh-TW.md` | 25–34 | 已翻譯（術語已驗收） |
 | Ch02 | Operations → `TC_3-21.76_Ch02_作戰_zh-TW.md` | 35–80 | 已翻譯，待驗收 |
 | Ch03 | Fire Support → `TC_3-21.76_Ch03_火力支援_zh-TW.md` | 81–100 | 已翻譯，待驗收 |
@@ -73,15 +73,17 @@ TC 3-21.76 章節（2025 年 9 月 19 日版，共 380 頁；PDF 頁為檔案實
 | Ch12 | Waterborne Operations → `TC_3-21.76_Ch12_水上作戰_zh-TW.md` | 259–280 | 已翻譯，待驗收 |
 | Ch13 | Mounted Patrol Operations → `TC_3-21.76_Ch13_車載巡邏_zh-TW.md` | 281–296 | 已翻譯，待驗收 |
 | Ch14 | Aviation → `TC_3-21.76_Ch14_航空_zh-TW.md` | 297–310 | 已翻譯，待驗收 |
-| Ch15 | Tactical Combat Casualty Care | 311–324 | **未翻譯** |
-| 附錄 A | Resources | 325–354 | **未翻譯** |
-| 附錄 B | Quick Reference Cards | 355–362 | **未翻譯** |
-| 書末 | Glossary（詞彙表） | 365–368 | **未翻譯** |
+| Ch15 | Tactical Combat Casualty Care → `TC_3-21.76_Ch15_戰術戰傷救護_zh-TW.md` | 311–324 | 已翻譯，待驗收 |
+| 附錄 A | Resources → `TC_3-21.76_AppA_資源_zh-TW.md` | 325–354 | 已翻譯，待驗收 |
+| 附錄 B | Quick Reference Cards → `TC_3-21.76_AppB_速查卡_zh-TW.md` | 355–362 | 已翻譯，待驗收 |
+| 書末 | Glossary（詞彙表）→ `TC_3-21.76_詞彙表_zh-TW.md` | 365–368 | 已翻譯，待驗收 |
+| 彙整 | 全書術語總表（譯稿自製，非原文章節）→ `TC_3-21.76_全書術語總表_zh-TW.md` | — | 793 條，由 `tools/gen_glossary.py` 產生 |
 | 書末 | Source Notes／References／Index | 363–364、369–380 | **不翻譯**（保留英文原文） |
 
 > **TC 3-21.76 專屬規則：**
 > - **Ch05 爆破**：章節結構、術語、安全注意事項、概念說明照常翻譯；裝藥量公式、起爆系統組裝步驟、爆破操作程序改寫成摘要，並標註原文頁碼供對照。
 > - **Ch15 TCCC**：術語沿用 ATP 4-02.11 已拍板的譯法（見 `DEVLOG.md` 2026-08-28 設計師決策 1）。
+> - **跨文件術語總表（2026-09-18）**：`術語總表_zh-TW.md`（repo 根目錄）彙整 TC 3-21.76 與 ATP 4-02.11 兩份譯稿的章末術語表，共 1,238 條；TC 單一文件版 793 條於 `TC_3-21.76/`。兩份均由 `tools/gen_glossary.py` 產生（`python3 tools/gen_glossary.py`）。**章末術語表為主檔、總表為產生結果**；改譯名先改章末表再重新產生總表。
 > - **章末術語表格式（2026-09-18）**：欄位為 `| 原文 | 譯文 | 說明 |`。說明欄只填「使用者指定或修正過的術語」與譯名易誤解者，其餘留空；外部連結另行統一處理，翻譯階段先不加。
 > - **職稱與編組（使用者指定）**：platoon sergeant＝**排士官長**、team leader＝**伍長**、fire team＝**火力伍**、medic＝**醫務兵**、range card＝**射界卡**；cloverleaf method＝**四葉草環繞法**；slough＝**盲汊**；long count／short count＝**單人報數／雙人報數**；combat lifesaver (CLS)＝**戰鬥救護員**（階層低於 CMC＝combat medic＝醫務兵；ATP 4-02.11 共 13 處已於 2026-09-18 一併改為此譯名）；machine gun team＝**機槍組**、aid and litter team＝**救護擔架組**（team 只有指步兵火力伍時才譯「伍」）。其餘術語見各章末術語表。
 
